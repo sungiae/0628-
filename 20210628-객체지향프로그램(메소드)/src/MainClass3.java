@@ -1,5 +1,25 @@
 import java.util.Scanner;
+/*
 
+
+
+
+	class ClassName
+	{
+		=============
+		인스턴스 변수
+		클래스 변수(static) ==> (클래스 전체에서, 다른 클래스에서 사용이 가능한 변수) => 전역변수, 멤버변수
+		
+		생성시기
+			인스턴스 변수 => 객체 생성시 => new를 이용해서 공간을 만들고 그 공간에 변수를 배치 (접근시에는 . 을 이용)
+			클래스 변수 => JVM이 클래스를 번역하기 위해서 .class파일을 읽어 올때 
+		=============
+		리턴형 메소드명(매개변수...) {
+			변수; ==> 지역변수 (메소드안에서만 사용하는 변수) => 매개변수
+			===============> 메소드 호출시마다 생성
+		}
+	}
+	*/
 class MusicData {
 	static String[] title = { "Your Lights", "겨울잠", "우린 어쩌다 헤어진 걸까", "요즘", "VVS (Feat. JUSTHIS) (Prod. by GroovyRoom)",
 			"Dynamite", "밤하늘의 별을 (2020)", "첫사랑 (Feat. SOLE (쏠))", "Life Goes On", "이제 나만 믿어요", "나로 바꾸자 (Duet With JYP)",
